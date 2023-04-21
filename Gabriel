@@ -1,0 +1,290 @@
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>FC Barcelona</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-red">
+<!-- Navigation bar with social media icons --> 
+<div class="w3-bar w3-yellow w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-blue">
+    <h1 class="w3-xxxlarge"><b>Pagina Barcelonista </b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">my page</span></h6>
+    <h1 class="w3-xxxlarge"><b>FC Barcelona </b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">Barcelona</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="img/Barcelona.png" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">visca barca</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small">més que un club<b></b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Luuk de jong "el poeta del gol"</h3>
+          <h5>Siempre se caracterizó por remontar los partidos
+              <span class="w3-opacity">jugadorazo</span>
+          </h5>
+        </div>
+        <div class="w3-justify">
+          <img src="/img/luuk de jong.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong> Luuk de jong fue el salvador del Barcelona! </strong>Comenzó en el equipo aficionado DZC'68 junto a su hermano Siem. Ambos comenzaron su carrera profesional en el De Graafschap. Siem fue fichado por el Ajax cuando jugaba en el De Graafschap juvenil.
+
+            El 6 de abril de 2009 fue fichado por el F. C. Twente con un contrato de tres años con opción a otra temporada más. Jugó sus primeros minutos en un partido de copa ante el SC Joure.
+            
+            El 18 de julio de 2012 fue fichado por el Borussia Mönchengladbach de Alemania por una cantidad que alcanza los 15 millones de euros y tendría contrato con el equipo alemán hasta 2017, en el cual le dieron el dorsal '9' al igual que en el Twente.
+            
+            El 12 de julio de 2014 fue fichado por el PSV Eindhoven de los Países Bajos por 5 millones y medio de euros.
+            
+            El 1 de julio de 2019 fue fichado por el Sevilla F. C. hasta 2023. Marcó su primer gol con el equipo hispalense en la victoria contra el Levante U. D. por 1 a 0.3​ También anotó ante el Real Betis Balompié el gol que le dio la victoria en el derbi.4​ El 16 de agosto de 2020 anotó el gol del triunfo ante el Manchester United F. C. que clasificó al conjunto hispalense para su sexta final de la Liga Europa de la UEFA. Cinco días después volvió a ver puerta en la final ante el Inter de Milán marcando dos de los tres goles que le dieron el título a su equipo.
+            
+            El 31 de agosto de 2021, antes del cierre de mercado de pases, el F. C. Barcelona y el Sevilla F. C. llegaron a un acuerdo para su cesión hasta junio de 2022. El equipo azulgrana cambió de entrenador y se rumoreó con una posible salida del club en enero.​ Mientras eso no sucedía consiguió anotar goles en los tres primeros partidos que jugó en 2022.​ Finalmente se acabó quedando y aprovechó los últimos minutos de los juegos para salvar un punto ante el R. C. D. Espanyol o dar la victoria ante el Levante U. D.​
+            
+            Tras informar el F. C. Barcelona que no iba a seguir una vez finalizó la cesión,​ el PSV Eindhoven anunció su llegada a sus instalaciones para realizar el reconocimiento médico y acabar de cerrar su vuelta al club.​ Al día siguiente se confirmó el regreso y firmó por tres años.
+            
+          </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/Pedri.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Pedri <span class="w3-opacity w3-medium">May 14, 2022, 6:32 PM</span></h4>
+                <p>El mejor mediocampista de holanda junto a frankie de jong </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Robert lewandoski</h3>
+          <h5>"lewangolski" <span class="w3-opacity"></span></h5>
+        </div>
+        <div class="w3-justify">
+          <img src="img/lewangolski.webp" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>lewandoski</strong> Un gran goleador</p>
+          <p>Después de hacer grandes actuaciones en el borussia dormunt y bayern munich el delantero central polaco fue fichado por el barcelona en el año 2022 para continuar su gran carrera como un gran goleador como se dió a conocer.
+            </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/frankie.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Frankie de jong     <span class="w3-opacity w3-medium">     June 15, 2022, 7:22 PM</span></h4>
+                <p>El gran goleador de nuestro club</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Pedri.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Pedri</h4> <span class="w3-opacity w3-medium">    June 15, 2022, 8:32 PM</span></h4>
+                <p>Nada más sabe hacer goles.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/luuk de jong perfi.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Luuk de jong <span class="w3-opacity w3-medium">   June 15, 2022, 9:12 PM</span></h4>
+                <p>esas asistencias no son un desperdicio!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-brown w3-margin">
+        <img src="img/gavi.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>Gavi</h4>
+          <p>Hay que ser agresivo en la cancha >:(</p>
+        </div>
+      </div>
+      <hr>
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Post mas gracioosos</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/Messi.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Messi</span>
+            <br>
+            <span>Gavi tenés que golpear a vini y a carvajal jajaja </span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/aubameyang.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Aubameyang</span>
+            <br>
+            <span>volveré al barca, pero como me salgo del chelsea? :(</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/gavi.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Gavi</span>
+            <br>
+            <span>Por que nadie cree que soy bueno? :(</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/araujo.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Ronald araujo</span>
+            <br>
+            <span>vinicius y yo nos tratamos muy bien</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+     
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Noticias</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Fichajes</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Mejores momentos</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jugadores</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Progreso en campeonatos</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clasicos</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Historia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Deportes</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tienda oficial</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Victorias y titulos</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">FCB femi</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Entrenamientos</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Directivos y ex-jugadores</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Categorias</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Destacados</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/Messi.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="img/luuk de jong.jpg" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="img/Gavi 2.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="img/lewangolski 1.jpg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+    <!-- END About/Intro Menu -->
+    </div>
+  <!-- END GRID -->
+  </div>
+<!-- END w3-content -->
+</div>
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+</body>
+</html
